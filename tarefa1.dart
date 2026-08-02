@@ -59,7 +59,7 @@ class PerfilDevPage extends StatelessWidget {
 
               // Nome do Desenvolvedor
               const Text(
-                'Seu Nome Aqui',
+                'Lucas Franco de Novais',
                 style: TextStyle(
                   fontSize: 24,
                   fontWeight: FontWeight.bold,
@@ -69,7 +69,7 @@ class PerfilDevPage extends StatelessWidget {
               const SizedBox(height: 8),
 
               const Text(
-                'Estudante de Desenvolvimento',
+                'Estudante de Desenvolvimento de Sistemas',
                 style: TextStyle(
                   fontSize: 16,
                   color: Colors.grey,
@@ -93,7 +93,7 @@ class PerfilDevPage extends StatelessWidget {
               const ItemInfoRow(
                 icon: Icons.nightlight_round,
                 label: 'Turno',
-                value: 'Noturno',
+                value: 'Tarde',
               ),
               const SizedBox(height: 12),
 
@@ -101,7 +101,7 @@ class PerfilDevPage extends StatelessWidget {
               const ItemInfoRow(
                 icon: Icons.email,
                 label: 'E-mail',
-                value: 'seu.email@exemplo.com',
+                value: 'l.novais@aluno.senai.br',
               ),
             ],
           ),
